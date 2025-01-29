@@ -1,0 +1,5 @@
+[core]
+    remote = origin
+['remote "origin"']
+    url = s3://dvc
+    endpointurl = https://dagshub.com/SharmajiKabetaDevesh/Endtoend_Data_science-project_1.s3
