@@ -1,0 +1,30 @@
+name: Hello World
+
+on:
+  push:
+    branches: ["main"] # Only run on pushes to the 'main' branch
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python environment
+        uses: actions/setup-python@v3
+        with:
+          python-version: "3.9" # Specify your desired Python version
+
+      - name: Install dependencies
+        run: |
+          python -m venv venv
+          source venv/bin/activate
+          pip install --upgrade pip
+          # Install any other necessary packages here
+          pip install -r requirements.txt
+
+      - name: Print "Hello, world!"
+        run: |
+          source venv/bin/activate
+          echo "Hello, world!"
