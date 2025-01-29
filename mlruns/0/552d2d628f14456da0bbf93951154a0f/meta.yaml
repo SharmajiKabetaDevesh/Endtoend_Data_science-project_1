@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Mlops/ETOE1DS/mlruns/0/552d2d628f14456da0bbf93951154a0f/artifacts
+end_time: 1738151828931
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 552d2d628f14456da0bbf93951154a0f
+run_name: shivering-shrimp-859
+run_uuid: 552d2d628f14456da0bbf93951154a0f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738151816952
+status: 3
+tags: []
+user_id: Admin
